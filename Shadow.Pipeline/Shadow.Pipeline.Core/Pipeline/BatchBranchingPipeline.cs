@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Shadow.Pipeline.Core.Pipeline
 {
-    public class BatchBranchingPipeline : BatchPipeline<int, string, BranchingPipeline>
+    public class BatchBranchingPipeline : BatchPipelineStep<int, string, BranchingPipeline>
     {
         public BatchBranchingPipeline(BranchingPipeline child) : base(child)
         {

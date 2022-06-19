@@ -55,7 +55,7 @@
     <Compile Include="PipelineStep\ToStringStep.cs" />
     <Compile Include="Pipeline\BasicPipeline.cs" />
     <Compile Include="Pipeline\BatchBranchingPipeline.cs" />
-    <Compile Include="Pipeline\BatchPipeline.cs" />
+    <Compile Include="BatchPipelineStep.cs" />
     <Compile Include="Pipeline\BranchingPipeline.cs" />
     <Compile Include="Pipeline\InnerPipeline.cs" />
     <Compile Include="Pipeline\NestedPipeline.cs" />
