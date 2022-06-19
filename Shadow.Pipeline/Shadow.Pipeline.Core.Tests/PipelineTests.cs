@@ -8,6 +8,14 @@ namespace Shadow.Pipeline.Core.Tests
     public class PipelineTests
     {
         [TestMethod]
+        public void BatchPipeline_Test()
+        {
+            var batchPipeline = new BatchBranchingPipeline(new BranchingPipeline());
+            var result = batchPipeline.Process(new int[] { 1, 10, 100, 1000 });
+
+        }
+
+        [TestMethod]
         public void BranchingPipeline_Test()
         {
             foreach (int input in new int[] { 1, 10, 100, 1000 })

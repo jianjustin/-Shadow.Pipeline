@@ -10,7 +10,7 @@ namespace Shadow.Pipeline.Core
     {
         public Func<INPUT, OUTPUT> PipelineSteps { get; protected set; }
 
-        public OUTPUT Process(INPUT input)
+        public virtual OUTPUT Process(INPUT input)
         {
             return PipelineSteps(input);
         }
