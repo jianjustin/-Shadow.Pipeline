@@ -42,7 +42,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ChoiceStep.cs" />
-    <Compile Include="Program.cs" />
     <Compile Include="IPipelineStep.cs" />
     <Compile Include="OptionalStep.cs" />
     <Compile Include="Pipeline.cs" />
