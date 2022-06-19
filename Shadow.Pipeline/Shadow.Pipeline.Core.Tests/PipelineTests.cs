@@ -1,5 +1,6 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Shadow.Pipeline.Core.Pipeline;
+using Shadow.Pipeline.Core.PipelineStep;
 using System;
 
 namespace Shadow.Pipeline.Core.Tests
@@ -38,6 +39,16 @@ namespace Shadow.Pipeline.Core.Tests
         {
             var input = 103;
             var pipeline = new NestedPipeline();
+            var output = pipeline.Process(input);
+        }
+
+        [TestMethod]
+        public void EventPipelineTest()
+        {
+            var input = 49;
+            var pipeline = new EventStep<int, int>(new DoubleStep());
+            pipeline.OnInput += i => Console.WriteLine("Input event: " + i.ToString());
+            pipeline.OnOutput += o => Console.WriteLine("Output event: " + o.ToString());
             var output = pipeline.Process(input);
         }
     }

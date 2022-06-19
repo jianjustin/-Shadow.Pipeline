@@ -41,6 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="EventStep.cs" />
     <Compile Include="ChoiceStep.cs" />
     <Compile Include="IPipelineStep.cs" />
     <Compile Include="OptionalStep.cs" />
