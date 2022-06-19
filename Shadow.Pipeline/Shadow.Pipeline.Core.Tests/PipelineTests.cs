@@ -46,9 +46,7 @@ namespace Shadow.Pipeline.Core.Tests
         public void EventPipelineTest()
         {
             var input = 49;
-            var pipeline = new EventStep<int, int>(new DoubleStep());
-            pipeline.OnInput += i => Console.WriteLine("Input event: " + i.ToString());
-            pipeline.OnOutput += o => Console.WriteLine("Output event: " + o.ToString());
+            var pipeline = new EventPipeline();
             var output = pipeline.Process(input);
         }
     }

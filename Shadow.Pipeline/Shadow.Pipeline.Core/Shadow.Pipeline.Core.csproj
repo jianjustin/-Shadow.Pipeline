@@ -58,6 +58,7 @@
     <Compile Include="Pipeline\BatchBranchingPipeline.cs" />
     <Compile Include="BatchPipelineStep.cs" />
     <Compile Include="Pipeline\BranchingPipeline.cs" />
+    <Compile Include="Pipeline\EventPipeline.cs" />
     <Compile Include="Pipeline\InnerPipeline.cs" />
     <Compile Include="Pipeline\NestedPipeline.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
