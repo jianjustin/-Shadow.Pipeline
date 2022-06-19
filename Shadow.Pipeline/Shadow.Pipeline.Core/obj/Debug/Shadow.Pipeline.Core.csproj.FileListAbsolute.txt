@@ -1,0 +1,6 @@
+D:\projects\Shadow.Pipeline\Shadow.Pipeline\Shadow.Pipeline.Core\obj\Debug\Shadow.Pipeline.Core.csproj.AssemblyReference.cache
+D:\projects\Shadow.Pipeline\Shadow.Pipeline\Shadow.Pipeline.Core\obj\Debug\Shadow.Pipeline.Core.csproj.CoreCompileInputs.cache
+D:\projects\Shadow.Pipeline\Shadow.Pipeline\Shadow.Pipeline.Core\bin\Debug\Shadow.Pipeline.Core.dll
+D:\projects\Shadow.Pipeline\Shadow.Pipeline\Shadow.Pipeline.Core\bin\Debug\Shadow.Pipeline.Core.pdb
+D:\projects\Shadow.Pipeline\Shadow.Pipeline\Shadow.Pipeline.Core\obj\Debug\Shadow.Pipeline.Core.dll
+D:\projects\Shadow.Pipeline\Shadow.Pipeline\Shadow.Pipeline.Core\obj\Debug\Shadow.Pipeline.Core.pdb
